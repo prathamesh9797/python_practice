@@ -1,4 +1,3 @@
-import psutil
 
 #Takes threshold values (CPU, disk, memory) from user input
 #Also fetches system metrics using a Python library (example: psutil)
@@ -6,6 +5,8 @@ import psutil
 #Prints the result to the terminal
 
 
+
+import psutil
 def check_system():
     threshold_cpu_value = float(input("enter cpu value"))
     threshold_disk_value = float(input("enter disk value"))
